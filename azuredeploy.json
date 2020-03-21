@@ -8,7 +8,7 @@
 				"description": "The base URL where artifacts required by this template are located. When the template is deployed using the accompanying scripts, a private location in the subscription will be used and this value will be automatically generated.",
 				"artifactsBaseUrl": ""
 			},
-			"defaultValue": "https://raw.githubusercontent.com/Microsoft/openshift-origin/master"
+			"defaultValue": "https://raw.githubusercontent.com/severinkehding/openshift-origin/master"
 		},
 		"masterVmSize": {
 			"type": "string",
@@ -349,7 +349,7 @@
 		},
 		"redHatTags": {
 			"app": "OpenShiftOrigin",
-			"version": "3.9",
+			"version": "3.11",
 			"platform": "AzurePublic",
 			"provider": "9d2c71fc-96ba-4b4a-93b3-14def5bc96fc"
 		},

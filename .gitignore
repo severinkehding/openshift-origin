@@ -1,4 +1,4 @@
 ## Ignore local [parameter] files
-
+.idea
 *.local
 *.local.json

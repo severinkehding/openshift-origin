@@ -121,11 +121,13 @@ The appId is used for the aadClientId parameter.
 `masterVmSize`| Size of the Master VM. Select from one of the allowed VM sizes listed in the azuredeploy.json file ||
 `infraVmSize`| Size of the Infra VM. Select from one of the allowed VM sizes listed in the azuredeploy.json file ||
 `nodeVmSize`| Size of the Node VM. Select from one of the allowed VM sizes listed in the azuredeploy.json file||
+`etcdVmSize`| Size of the Etcd VM. Select from one of the allowed VM sizes listed in the azuredeploy.json file||
 `storageKind`| The type of storage to be used. | - "managed"<br>- "unmanaged"|
 `openshiftClusterPrefix`| Cluster Prefix used to configure hostnames for all nodes - master, infra and nodes. Between 1 and 20 characters||
 `masterInstanceCount`| Number of Masters nodes to deploy||
 `infraInstanceCount`| Number of infra nodes to deploy||
 `nodeInstanceCount`| Number of Nodes to deploy||
+`etcdInstanceCount`| Number of etcd Nodes to deploy||
 `dataDiskSize`| Size of data disk to attach to nodes for Docker volume.|- 32 GB<br>- 64 GB<br>- 128 GB<br>- 256 GB<br>- 512 GB<br>- 1024 GB<br>- 2048 GB|
 `adminUsername`| Admin username for both OS login and OpenShift login||
 `openshiftPassword`| Password for OpenShift login||

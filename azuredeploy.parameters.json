@@ -14,6 +14,9 @@
 		"nodeVmSize": {
 			"value": "Standard_D4s_v3"
 		},
+		"etcdVmSize": {
+			"value": "Standard_D4s_v3"
+		},
 		"storageKind": {
 			"value": "managed"
 		},
@@ -27,6 +30,9 @@
 			"value": 3
 		},
 		"nodeInstanceCount": {
+			"value": 3
+		},
+		"etcdInstanceCount": {
 			"value": 3
 		},
 		"dataDiskSize": {
